@@ -1,1 +1,7 @@
 add_executable(msf eigenMatrix.cpp)
+add_executable(geometry eigenGeometry.cpp)
+add_executable(visualizeGeometry visualizeGeometry.cpp)
+target_link_libraries(visualizeGeometry ${Pangolin_LIBRARIES})
+add_executable(coordinateTransform coordinateTransform.cpp)
+add_executable(plotTracetory plotTracetory.cpp)
+target_link_libraries(plotTracetory ${Pangolin_LIBRARIES})

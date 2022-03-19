@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/qiang/software/MSF_SLAM/src/plotTracetory.cpp
+pangolin/pangolin.h
+-
+eigen3/Eigen/Core
+-
+eigen3/Eigen/Geometry
+-
+unistd.h
+-
+

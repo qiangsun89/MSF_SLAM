@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="msf"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\usr\lib\cmake\eigen3\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\Pangolin\;CMake Files\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/qiang/software/MSF_SLAM/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/qiang/software/MSF_SLAM/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/qiang/software/MSF_SLAM/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="plotTracetory">
+				<Option output="/home/qiang/software/MSF_SLAM/cmake-build-release/src/plotTracetory" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qiang/software/MSF_SLAM/cmake-build-release/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LINUX_"/>
+					<Add option="-DHAVE_EIGEN"/>
+					<Add option="-DHAVE_GLEW"/>
+					<Add option="-DPANGO_DEFAULT_WIN_URI=&quot;wayland&quot;"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/src/Makefile&quot;  VERBOSE=1 plotTracetory"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="plotTracetory/fast">
+				<Option output="/home/qiang/software/MSF_SLAM/cmake-build-release/src/plotTracetory" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qiang/software/MSF_SLAM/cmake-build-release/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LINUX_"/>
+					<Add option="-DHAVE_EIGEN"/>
+					<Add option="-DHAVE_GLEW"/>
+					<Add option="-DPANGO_DEFAULT_WIN_URI=&quot;wayland&quot;"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/src/Makefile&quot;  VERBOSE=1 plotTracetory/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="msf">
+				<Option output="/home/qiang/software/MSF_SLAM/cmake-build-release/src/msf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qiang/software/MSF_SLAM/cmake-build-release/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/src/Makefile&quot;  VERBOSE=1 msf"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="msf/fast">
+				<Option output="/home/qiang/software/MSF_SLAM/cmake-build-release/src/msf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qiang/software/MSF_SLAM/cmake-build-release/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/src/Makefile&quot;  VERBOSE=1 msf/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="visualizeGeometry">
+				<Option output="/home/qiang/software/MSF_SLAM/cmake-build-release/src/visualizeGeometry" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qiang/software/MSF_SLAM/cmake-build-release/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LINUX_"/>
+					<Add option="-DHAVE_EIGEN"/>
+					<Add option="-DHAVE_GLEW"/>
+					<Add option="-DPANGO_DEFAULT_WIN_URI=&quot;wayland&quot;"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/src/Makefile&quot;  VERBOSE=1 visualizeGeometry"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="visualizeGeometry/fast">
+				<Option output="/home/qiang/software/MSF_SLAM/cmake-build-release/src/visualizeGeometry" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qiang/software/MSF_SLAM/cmake-build-release/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LINUX_"/>
+					<Add option="-DHAVE_EIGEN"/>
+					<Add option="-DHAVE_GLEW"/>
+					<Add option="-DPANGO_DEFAULT_WIN_URI=&quot;wayland&quot;"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/src/Makefile&quot;  VERBOSE=1 visualizeGeometry/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="geometry">
+				<Option output="/home/qiang/software/MSF_SLAM/cmake-build-release/src/geometry" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qiang/software/MSF_SLAM/cmake-build-release/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/src/Makefile&quot;  VERBOSE=1 geometry"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="geometry/fast">
+				<Option output="/home/qiang/software/MSF_SLAM/cmake-build-release/src/geometry" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qiang/software/MSF_SLAM/cmake-build-release/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/src/Makefile&quot;  VERBOSE=1 geometry/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="coordinateTransform">
+				<Option output="/home/qiang/software/MSF_SLAM/cmake-build-release/src/coordinateTransform" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qiang/software/MSF_SLAM/cmake-build-release/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/src/Makefile&quot;  VERBOSE=1 coordinateTransform"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="coordinateTransform/fast">
+				<Option output="/home/qiang/software/MSF_SLAM/cmake-build-release/src/coordinateTransform" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qiang/software/MSF_SLAM/cmake-build-release/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/src/Makefile&quot;  VERBOSE=1 coordinateTransform/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/qiang/software/MSF_SLAM/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/qiang/software/MSF_SLAM/src/coordinateTransform.cpp">
+			<Option target="coordinateTransform"/>
+		</Unit>
+		<Unit filename="/home/qiang/software/MSF_SLAM/src/eigenGeometry.cpp">
+			<Option target="geometry"/>
+		</Unit>
+		<Unit filename="/home/qiang/software/MSF_SLAM/src/eigenMatrix.cpp">
+			<Option target="msf"/>
+		</Unit>
+		<Unit filename="/home/qiang/software/MSF_SLAM/src/plotTracetory.cpp">
+			<Option target="plotTracetory"/>
+		</Unit>
+		<Unit filename="/home/qiang/software/MSF_SLAM/src/visualizeGeometry.cpp">
+			<Option target="visualizeGeometry"/>
+		</Unit>
+		<Unit filename="/home/qiang/software/MSF_SLAM/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/qiang/software/MSF_SLAM/../../../../usr/lib/cmake/eigen3/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/qiang/software/MSF_SLAM/../../../../usr/lib/cmake/eigen3/Eigen3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/qiang/software/MSF_SLAM/../../../../usr/lib/cmake/eigen3/Eigen3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/qiang/software/MSF_SLAM/../../../../usr/local/lib/cmake/Pangolin/PangolinConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Pangolin\"/>
+		</Unit>
+		<Unit filename="/home/qiang/software/MSF_SLAM/../../../../usr/local/lib/cmake/Pangolin/PangolinConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Pangolin\"/>
+		</Unit>
+		<Unit filename="/home/qiang/software/MSF_SLAM/../../../../usr/local/lib/cmake/Pangolin/PangolinTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Pangolin\"/>
+		</Unit>
+		<Unit filename="/home/qiang/software/MSF_SLAM/../../../../usr/local/lib/cmake/Pangolin/PangolinTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Pangolin\"/>
+		</Unit>
+		<Unit filename="/home/qiang/software/MSF_SLAM/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

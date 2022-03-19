@@ -11,7 +11,11 @@ set(CMAKE_MODULE_PATH ${msf_CMAKE_PATH}/cmake)
 find_package(Eigen3 REQUIRED)
 message(${Eigen3_DIR})
 
+find_package(Pangolin)
+include_directories(${Pangolin_INCLUDE_DIRS})
+
 add_subdirectory(src)
+
 
 
 

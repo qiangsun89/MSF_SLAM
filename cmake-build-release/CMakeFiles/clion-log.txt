@@ -1,0 +1,5 @@
+/home/qiang/software/clion-2020.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles" /home/qiang/software/MSF_SLAM
+/usr/lib/cmake/eigen3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/qiang/software/MSF_SLAM/cmake-build-release
